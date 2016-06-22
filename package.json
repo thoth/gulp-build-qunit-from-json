@@ -1,0 +1,33 @@
+{
+  "name": "gulp-build-qunit-from-json",
+  "version": "0.1.0",
+  "description": "A gulp plugin to convert a JSON object to QUnit asserts.",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thoth/gulp-build-qunit-from-json.git"
+  },
+  "bugs": "https://github.com/thoth/gulp-build-qunit-from-json/issues",
+  "homepage": "https://github.com/thoth/gulp-build-qunit-from-json",
+  "keywords": [
+    "gulp",
+    "plugin",
+    "transform",
+    "json",
+    "qunit"
+  ],
+  "author": {
+    "name": "Tom Rader",
+    "url": "https://github.com/thoth"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jshint": "^2.9.2",
+    "should": "^8.3.1"
+  },
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "promise": "^7.1.1",
+    "through2": "^2.0.1"
+  }
+}
